@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8508f523-0f43-4d60-9314-bd9dbc3262ec" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/Main.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientBImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ab04/target/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/Main.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ab04/target/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.class" afterPath="$PROJECT_DIR$/ab04/target/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/ClientFactoryImpl.java" afterPath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/ClientFactoryImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java" afterPath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java" afterPath="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Syssec.iws" />
@@ -30,24 +34,81 @@
         <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DHClientAImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java">
+      <file leaf-file-name="DHClientA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/DHClientA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49837133">
-              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CRClientA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/CRClientA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47252747">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientFactoryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/ClientFactoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DHClientBImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientBImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#2251#2263#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DHClientAImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#2440#2452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +153,9 @@
         <option value="$PROJECT_DIR$/src/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/ClientFactoryImpl.java" />
         <option value="$PROJECT_DIR$/src/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java" />
         <option value="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/Main.java" />
+        <option value="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientBImpl.java" />
+        <option value="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/ClientFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java" />
         <option value="$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java" />
       </list>
     </option>
@@ -226,7 +290,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ab04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SS_Ab2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -577,12 +641,12 @@
       <updated>1432883640243</updated>
       <workItem from="1432883641317" duration="243000" />
       <workItem from="1432883909634" duration="1329000" />
-      <workItem from="1432885240337" duration="1593000" />
+      <workItem from="1432885240337" duration="4981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3165000" />
+    <option name="totallyTimeSpent" value="6553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2625" y="24" width="1855" height="1056" extended-state="6" />
@@ -591,7 +655,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -618,7 +682,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -634,26 +720,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java">
+    <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/ClientFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-          <folding />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientBImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/impl/Kohlbacher_Wutti/DHClientAImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49837133">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#2251#2263#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#2440#2452#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/test/FactoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/DHClientA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab04/src/at/syssec/ss15/ss/ab4/CRClientA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47252747">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

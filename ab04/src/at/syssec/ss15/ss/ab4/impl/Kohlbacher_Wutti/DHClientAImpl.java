@@ -6,6 +6,7 @@ import java.math.BigInteger;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by michael on 29.05.15.
@@ -27,9 +28,9 @@ public class DHClientAImpl implements DHClientA {
     public BigInteger sendPrime() {
         BigInteger p;
         do {
-            BigInteger q = BigInteger.probablePrime(bitLength, new SecureRandom());
+            BigInteger q = BigInteger.probablePrime(bitLength, new Random(System.currentTimeMillis()));
             p = q.multiply(BigInteger.valueOf(2)).add(BigInteger.ONE);
-        } while (!p.isProbablePrime(1000));
+        } while (!p.isProbablePrime(1));
         this.p = p;
         return p;
     }
@@ -89,7 +90,7 @@ public class DHClientAImpl implements DHClientA {
         List<BigInteger> primTeiler = new ArrayList<BigInteger>();
         BigInteger prim = BigInteger.valueOf(2);
         BigInteger pTemp = p.add(BigInteger.ZERO);
-        //Suche nur notmendig bis n/2 (optimale wäre sqrt(n), ~.~)
+        //Suche nur notwendig bis n/2 (optimale wäre sqrt(n), ~.~)
         while (prim.compareTo(p.divide(BigInteger.valueOf(2))) <= 0) {
             if (pTemp.mod(prim).equals(BigInteger.ZERO)) {
                 primTeiler.add(prim);

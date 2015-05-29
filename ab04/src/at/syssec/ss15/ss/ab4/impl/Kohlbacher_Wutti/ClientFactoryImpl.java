@@ -10,7 +10,6 @@ public class ClientFactoryImpl implements ClientFactory {
 
 	@Override
 	public CRClientA generateCRClientA() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -22,14 +21,12 @@ public class ClientFactoryImpl implements ClientFactory {
 
 	@Override
 	public DHClientA generateDHClientA() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DHClientAImpl();
 	}
 
 	@Override
 	public DHClientB generateDHClientB() {
-		// TODO Auto-generated method stub
-		return null;
+		return new DHClientBImpl();
 	}
 
 }
